@@ -1,0 +1,108 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+}
+nav img {
+    margin: auto 10px;
+    align-items: center;
+    height: 50px;
+}
+nav ul {
+    margin: auto 10px;
+}
+nav li {
+    text-decoration: underline;
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    margin-top: 69px;
+
+}
+.banner {
+    background-image: url('../images/img-mission-background.jpg');
+    height: 700px;
+    width: 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-size: cover;
+}
+.mission {
+    background-color: black;
+    width: 100%;
+}
+
+.teamonth {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px auto;
+}
+
+.teamonth img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px;
+}
+.teamonth p {
+    margin: 0px 10px 10px 10px;
+}
+.teamonth h2, .teamonth h4 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.bannerlocations {
+    background-image: url('../images/img-locations-background.jpg');
+    width: 90%;
+    height: 700px;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.bannerlocations h2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bannerlocations div {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 15px 40px;
+    opacity: 1;
+}
+.beforecopy {
+    height: 200px;
+}
+.copy {
+    text-align: left;
+    margin: auto 20px;
+}
